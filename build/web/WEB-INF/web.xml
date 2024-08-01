@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>controller.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DatLich</servlet-name>
+        <servlet-class>controller.DatLich</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ChonTk</servlet-name>
+        <servlet-class>controller.ChonTk</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TKNhaCungCap</servlet-name>
+        <servlet-class>controller.TKNhaCungCap</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CTNCC</servlet-name>
+        <servlet-class>controller.CTNCC</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DatLich</servlet-name>
+        <url-pattern>/datlich</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ChonTk</servlet-name>
+        <url-pattern>/chontk</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TKNhaCungCap</servlet-name>
+        <url-pattern>/tkncc</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CTNCC</servlet-name>
+        <url-pattern>/ctncc</url-pattern>
+    </servlet-mapping>
+</web-app>
